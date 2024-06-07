@@ -1,0 +1,146 @@
+/* .background-position-center {
+    background-position: center !important;
+}
+.background-repeat {
+    background-repeat: repeat;
+}
+.overlap-height {
+    transition: .3s height;
+}
+
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.container{
+    --bs-gutter-x: 1.5rem;
+--bs-gutter-y: 0;
+width: 100%;
+margin-right: auto;
+margin-left: auto;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.justify-content-center {
+    justify-content: center !important;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    flex-wrap: wrap;
+    display: flex;
+}
+
+[data-anime].appear {
+    opacity: 1;
+}
+[data-anime] {
+    transition: none;
+}
+.row>* {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.text-center {
+    text-align: center !important;
+}
+
+.fw-500 {
+    font-weight: 500 !important;
+}
+.mb-15px {
+    margin-bottom: 15px !important;
+}
+.text-base-color {
+    color: var(--base-color);
+}
+.fs-20 {
+    font-size: 20px;
+}
+.d-block {
+    display: block !important;
+}
+
+
+.ls-minus-1px {
+    letter-spacing: -1px !important;
+}
+.text-dark-gray{
+    color: var(--dark-gray);
+}
+.alt-font {
+    font-family: var(--alt-font);
+}
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+h4{
+    font-size: 2.375rem;
+    line-height: 2.7rem;
+    font-weight: inherit;
+}
+
+@media (max-width: 1600px) {
+    section {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+}
+@media(min-width: 1200px){
+   .container{
+    max-width: 1140px;
+   }
+   .col-xl-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+}
+.row>*{
+    max-width: 100%;
+    margin-top: var(--bs-gutter-y);
+}
+h4{
+    margin-top: 0;
+}
+}
+@media (max-width: 992px) {
+    .container{
+        max-width: 960px;
+    }
+}
+@media (max-width: 991px) {
+    section {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+}
+@media (max-width: 768px) {
+    .container{
+        max-width: 720px;
+    }
+}
+@media (max-width: 767px) {
+    section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    h4{
+        font-size: 2.375rem;
+    line-height: 2.7rem;
+    font-weight: inherit;
+    margin-top: 0;
+    }
+}
+@media (min-width: 576px) {
+    .container{
+        --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    }
+} */

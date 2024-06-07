@@ -1,0 +1,133 @@
+.pb-35px {
+  padding-bottom: 35px !important;
+}
+.pt-35px {
+  padding-top: 35px !important;
+}
+.bg-very-light-gray {
+  background-color: var(--very-light-gray);
+}
+
+.packages-section-1-container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.packages-section-1-container {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+[data-anime].appear {
+  opacity: 1;
+}
+[data-anime] {
+  transition: none;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.text-center {
+  text-align: center !important;
+}
+.justify-content-center {
+  justify-content: center !important;
+}
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.border-color-transparent-base-color {
+  border-color: rgba(160, 135, 91, 0.2) !important;
+}
+.row > * {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.border-end {
+  border-right: var(--bs-border-width) var(--bs-border-style)
+    var(--bs-border-color) !important;
+}
+
+.text-dark-gray {
+  color: var(--dark-gray) !important;
+}
+.fs-22 {
+  font-size: 22px;
+}
+.alt-font {
+  font-family: var(--alt-font);
+}
+a {
+  transition: 0.3s;
+  text-decoration: none;
+}
+.row-cols-1 > * {
+  flex: 0 0 auto;
+  width: 100%;
+}
+.row > * {
+  max-width: 100%;
+  margin-top: var(--bs-gutter-y);
+}
+
+@media (min-width: 1400px) {
+  .packages-section-1-container {
+    max-width: 1220px;
+  }
+  .packages-section-1-container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    /* max-width: 720px; */
+  }
+
+  .row-cols-md-4 > * {
+    flex: 0 0 auto;
+    width: 19%;
+  }
+}
+@media (min-width: 576px) {
+  .packages-section-1-container {
+    --bs-gutter-y: 0;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .row > * {
+    max-width: 100%;
+    margin-top: var(--bs-gutter-y);
+  }
+}
+@media (max-width: 575px) {
+  .xs-pb-20px {
+    padding-bottom: 20px !important;
+  }
+  .xs-border-end-0 {
+    border-right: 0 !important;
+  }
+  .xs-border-bottom {
+    border-bottom: 1px solid;
+  }
+  .row > * {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .row-cols-1 > * {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .row > * {
+    max-width: 100%;
+    margin-top: var(--bs-gutter-y);
+  }
+}

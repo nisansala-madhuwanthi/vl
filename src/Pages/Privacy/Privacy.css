@@ -1,0 +1,30 @@
+.background-position-center {
+    background-position: center !important;
+  }
+  .background-repeat {
+    background-repeat: repeat;
+  }
+  .bg-very-light-gray {
+    background-color: var(--very-light-gray);
+  }
+  .overlap-height {
+    transition: 0.3s height;
+  }
+  .position-relative {
+    position: relative !important;
+  }
+  
+  .m-100px{
+    margin: 50px 100px;
+  }
+
+  .head{
+    text-align: center;
+  }
+  .list{
+    list-style: disc;
+  }
+  .paragraph{
+   
+    text-align: justify;
+  }

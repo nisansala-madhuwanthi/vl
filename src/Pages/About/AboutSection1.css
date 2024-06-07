@@ -1,0 +1,275 @@
+section {
+  padding-top: 110px;
+}
+.pb-5 {
+  padding-bottom: 5% !important;
+}
+.background-position-center {
+  background-position: center !important;
+}
+.background-repeat {
+  background-repeat: repeat;
+}
+.overlap-height {
+  transition: 0.3s height;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  flex-wrap: wrap;
+  display: flex;
+}
+
+[data-anime].appear {
+  opacity: 1;
+}
+[data-anime] {
+  transition: none;
+}
+.row > * {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@keyframes anime2 {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.col-md-6 {
+  opacity: 0;
+  transform: translateX(50px);
+  animation: anime2 1.2s ease-out;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
+}
+.mb-15px {
+  margin-bottom: 15px !important;
+}
+.text-base-color {
+  color: var(--base-color);
+}
+.d-block {
+  display: block !important;
+}
+
+.w-90 {
+  width: 90% !important;
+}
+.ls-minus-2px {
+  letter-spacing: -2px !important;
+}
+.text-dark-gray {
+  color: var(--dark-gray);
+}
+.alt-font {
+  font-family: var(--alt-font);
+}
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+h3 {
+  line-height: 2.9rem;
+  font-size: 2.813rem;
+  font-weight: inherit;
+}
+
+[data-anime].appear {
+  opacity: 1;
+}
+[data-anime] {
+  transition: none;
+}
+.row > * {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.mb-10px {
+  margin-bottom: 10px !important;
+}
+.text-dark-gray {
+  color: var(--dark-gray);
+}
+.alt-font {
+  font-family: var(--alt-font);
+}
+.primary-font {
+  font-family: var(--primary-font);
+}
+h6 {
+  line-height: 2.2rem;
+  font-size: 1.75rem;
+  letter-spacing: -0.5px;
+  font-weight: inherit;
+  margin-top: 0;
+}
+
+.last-paragraph-no-margin p:last-of-type {
+  margin-bottom: 0;
+}
+.w-90 {
+  width: 90% !important;
+}
+p {
+  margin-top: 0;
+}
+
+@keyframes anime3 {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.col-xl-5 {
+  opacity: 0;
+  transform: translateX(-50px);
+  animation: anime3 1.2s ease-out;
+}
+
+.row > * {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.row > * {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  margin-top: var(--bs-gutter-y);
+}
+
+@media (max-width: 1600px) {
+  section {
+    padding-top: 90px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1220px;
+  }
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+  h3 {
+    margin-top: 0;
+  }
+  .offset-xl-1 {
+    margin-left: 8.33333333%;
+  }
+  .col-xl-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+}
+@media (max-width: 1199px) {
+  .lg-w-100 {
+    width: 100% !important;
+  }
+  p {
+    margin-top: 0;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (max-width: 991px) {
+  section {
+    padding-top: 75px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .row > * {
+    max-width: 100%;
+    margin-top: var(--bs-gutter-y);
+  }
+}
+@media (max-width: 767px) {
+  section {
+    padding-top: 50px;
+  }
+  .sm-mb-25px {
+    margin-bottom: 25px !important;
+  }
+  [data-anime] {
+    transition: none;
+  }
+  .row > * {
+    padding-right: 15px;
+    padding-left: 15px;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    margin-top: var(--bs-gutter-y);
+  }
+  .sm-w-100 {
+    width: 100% !important;
+  }
+  .ls-minus-2px {
+    letter-spacing: -2px !important;
+  }
+  .text-dark-gray {
+    color: var(--dark-gray);
+  }
+  .alt-font {
+    font-family: var(--alt-font);
+  }
+  .mb-0 {
+    margin-bottom: 0 !important;
+  }
+  h3 {
+    line-height: 2.9rem;
+    font-size: 2.813rem;
+    font-weight: inherit;
+  }
+  h6 {
+    font-size: 1.75rem;
+    letter-spacing: -0.5px;
+    font-weight: inherit;
+    margin-top: 0;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
